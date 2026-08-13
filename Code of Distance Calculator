@@ -1,0 +1,23 @@
+Import: math
+
+
+#Ask user to input the coordinate values of the first points
+x1 = float(input("Enter the value of x1: "))
+y1 = float(input("Enter the value of y1: "))
+
+
+#Ask user to input the coordinate values of the second points
+x2 = float(input("Enter the value of x2: "))
+y2 = float(input("Enter the value of y2: "))
+
+
+#Standard distance formula of two points
+Distance = math.sqrt(math.pow(x2-x1, 2) + math.pow(y2-y1, 2))
+
+
+#Display the result rounded to two decimal points
+print(f"The distance between the two points is: {Distance:.2f}")
+
+
+#The math library helped me understand the text because of the text color or highlights, and it had a lot of functions I could just use directly.
+#The math library made things a lot easier to code. Without the math library, which I used for the sprt and pow, it would be longer and more confusing to make.
